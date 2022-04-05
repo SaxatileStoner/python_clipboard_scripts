@@ -11,7 +11,8 @@ def execute_camel():
     convert_clipboard_camelCase.__main__()
 
 
-with keyboard.GlobalHotKeys({
-    '<alt>+<ctrl>+r': execute_snake,
-        '<alt>+<ctrl>+t': execute_camel}) as h:
-    h.join()
+while True:
+    with keyboard.GlobalHotKeys({
+        '<alt>+<ctrl>+r': execute_snake,
+            '<alt>+<ctrl>+t': execute_camel}) as h:
+        h.join()
