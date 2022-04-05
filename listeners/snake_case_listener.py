@@ -3,8 +3,8 @@ from pynput import keyboard
 
 # The key combination to check
 COMBINATIONS = [
-    {keyboard.Key.shift, keyboard.KeyCode(char='a')},
-    {keyboard.Key.shift, keyboard.KeyCode(char='A')}
+    {keyboard.Key.alt_r, keyboard.KeyCode(char=',')},
+    {keyboard.Key.alt_r, keyboard.KeyCode(char='<')}
 ]
 
 # The currently active modifiers
