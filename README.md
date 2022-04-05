@@ -1,4 +1,4 @@
-#Python Clip Scripts
+# Python Clip Scripts
 
 This repo is to manipulate data from the Windows clipboard
 Still figuring out how to make this script run continuously as a service does
