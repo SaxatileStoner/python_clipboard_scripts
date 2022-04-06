@@ -30,7 +30,7 @@ def clip_to_camel():
         # win32_tray_popup.balloon_tip(
         #     title, "Last Clipboard Entry not of a string type")
 
-    string = convert_case.snake_case(string)
+    string = convert_case.camel_case(string)
     win32clipboard.EmptyClipboard()
     win32clipboard.SetClipboardText(f"{string}")
     win32clipboard.CloseClipboard()
