@@ -8,7 +8,7 @@ def camel_case(s):
     return ''.join([s[0].lower(), s[1:]])
 
 
-def __main__():
+def main():
     title = "convert_clipboard_camelCase.py"
     win32clipboard.OpenClipboard()
     try:
@@ -27,4 +27,4 @@ def __main__():
 
 
 if __name__ == "__main__":
-    __main__()
+    main()

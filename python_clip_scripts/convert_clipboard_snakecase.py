@@ -10,7 +10,7 @@ def snake_case(s):
                 s.replace('-', ' '))).split()).lower()
 
 
-def __main__():
+def main():
     title = "convert_clipboard_snakecase.py"
     win32clipboard.OpenClipboard()
     try:
@@ -29,4 +29,4 @@ def __main__():
 
 
 if __name__ == '__main__':
-    __main__()
+    main()
